@@ -1,0 +1,36 @@
+# ---- Basic info (edit these) ----
+title: Your Name
+email: you@example.com
+description: Projects and notes from things I'm building.
+
+# For a user site (repo named yourname.github.io) leave baseurl empty.
+# For a project repo (e.g. "my-blog") set baseurl: "/my-blog"
+baseurl: ""
+url: "https://yourname.github.io"
+
+# ---- Theme ----
+theme: minima
+
+# Pages shown in the top navigation
+header_pages:
+  - about.md
+  - projects.md
+
+# Social links shown in the footer (fill in or delete)
+github_username: yourname
+# twitter_username: yourname
+# linkedin_username: yourname
+
+# ---- Blog settings ----
+permalink: /blog/:year/:month/:day/:title/
+show_excerpts: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
